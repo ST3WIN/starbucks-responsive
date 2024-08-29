@@ -1,0 +1,369 @@
+*{
+  font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* navbar section */
+.navbar-brand img{
+    width: 80px;
+    height: 70px;
+}
+.nav-links{
+  font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.fs{
+  font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+.fs:hover{
+  color: #00754a;
+}
+.nav ul li{
+  text-transform: uppercase;
+  padding: 24px;
+  font-size: 14px;
+  font-weight: 700;
+  
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+.nav nav ul li:hover{
+  color: #00754a;
+}
+.join{
+  padding: 7px 16px;
+  border: 1px solid;
+  border-radius: 50px;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+}
+.sign{
+  padding: 7px 16px;
+  border: 1px solid;
+  border-radius: 50px;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+}
+.sign{
+  margin-right: 16px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.sign:hover{
+  background-color: rgba(192, 192, 192, 0.6);
+  transition: all 0.2s ease;
+}
+
+.join{
+  background-color: black;
+  color: white;
+  transition: all 0.2s ease;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.join:hover{
+  background-color: rgb(56, 56, 56);
+}
+i{
+    margin-right: 40px;
+}
+/* navbar end */
+/* main */
+#pumpkin1{
+    background-color: #fa745c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    margin-top: 30px;
+}
+.pumpkin{
+   text-align: center;
+   
+}
+#img{
+  object-fit: cover;
+}
+.order-black{
+  border: 1px solid #1e3932;
+  max-width: max-content;
+  padding: 5px 20px 5px 20px;
+  border-radius: 40px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #1e3932;
+  background-color: #fa745c;
+}
+.order-pink{
+  border: 1px solid #1e3932;
+  max-width: max-content;
+  padding: 5px 20px 5px 20px;
+  border-radius: 40px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #1e3932;
+  background-color: #ffbe9e;
+}
+.order-yellow{
+  border: 1px solid #1e3932;
+  max-width: max-content;
+  padding: 5px 20px 5px 20px;
+  border-radius: 40px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #1e3932;
+  background-color: #d9e89a;
+}
+#bunch1{
+  background-color: #9e2240;
+  /* display: flex;
+  align-items: center; 
+  justify-content: center; */
+   
+}
+.bunch{
+   text-align: center;
+   color: #ffffff;
+   margin-top: 10%;
+   
+}
+.product-title-white-big{
+  font-size: 50px;
+  font-weight: 600;
+  font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.product-description-big-white{
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+.product-title-black{
+  color: #1e3932;
+  font-weight: 600;
+  font-size: 50px;
+  
+}
+.product-description-black{
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+.product-title-pink{
+  color: #1e3932;
+  font-weight: 600;
+  font-size: 24px;
+}
+.order-red{
+    border: 1px solid white;
+    max-width: max-content;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #9e2240;
+}
+.order-green{
+  border: 1px solid white;
+  max-width: max-content;
+  padding: 5px 20px 5px 20px;
+  border-radius: 40px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #006241;
+}
+#your1{
+    background-color: #006241;
+    display: flex;
+   
+   justify-content: center;
+   align-items: center;
+}
+.your{
+    text-align: center;
+    color: white;
+    /* margin-top: 10%; */
+    
+}
+.product-title-white{
+  font-weight: 600;
+  font-size: 24px;
+  font-family:SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+.product-description-white{
+  font-weight: 400;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+
+#spice1{
+    background-color: #d9e89a;
+}
+.spice{
+    text-align: center;
+    color: #04281c;
+    margin-top: 25%;
+}
+.product-descritption-pink{
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family:SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#deal1{
+    background-color: #ffbe9e;
+    display: flex;
+   
+   justify-content: center;
+   align-items: center;
+}
+.deal{
+    text-align: center;
+    /* margin-top: 15%; */
+}
+#spic1{
+    background-color: #ffbe9e;
+}
+.spic{
+    text-align: center;
+    color: #04281c;
+    margin-top: 15%;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Media Query  */
+  @media screen and (max-width: 728px) {
+    .footer-menu {
+        display: block;
+    }
+  
+    .footer-column h3 {
+        cursor: pointer;
+    }
+  
+    .footer-column .collapse {
+        display: none; /* Hide all lists by default */
+    }
+  
+    .footer-column .collapse.show {
+        display: block; /* Show the list when expanded */
+    }
+  }
+  
+  
+  @media screen and (min-width: 728px){
+    .footer-column .collapse{
+        display: block;
+    }
+  }
+ /* @media (min-width:768px) and (max-width:992px){
+ 
+  #pumpkin1{
+    width: 100%;
+  }
+ }  */
+  
+  
+  
+  
+  
+  .accordion-button:focus{
+    box-shadow: none;
+  }
+  
+  
+  
+  .accordion-item{
+    border: none;
+  }
+  
+  
+  
+  hr{
+    color:rgba(0, 0, 0, 0.15) 1.95px 1.95px ; 
+    margin: 30px 30px;
+  }
+  .footer-final{
+    margin: 32px 39.6px 32px 39.6px;
+    text-decoration: none;
+    
+  }
+  .footer-final ul{
+   list-style: none;
+   margin-left: -25px; 
+  
+  }
+  .footer-final {
+   font-size: 16px;
+   font-family: SoDoSans;
+   font-weight: 400; 
+  }
+  .sm-info{
+   margin-top: 40px;
+   
+  }
+  .sm-info a{
+   
+   color: black;
+   text-decoration: none;
+  }
+  .sm-info li{
+   height: 50px;
+   
+  }
+  .sm-logo i{
+   font-size: 30px;
+   padding-right: 15px; 
+  }
+  small{
+    color: grey;  
+  }
+  .logoo{
+    display: flex;
+    margin-left: 5%;
+  }
+  
